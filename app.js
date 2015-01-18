@@ -5,7 +5,7 @@ function init() {
   if ((window.DeviceMotionEvent) || ('listenForDeviceMovement' in window)) {
     window.addEventListener('devicemotion', deviceMotionHandler, false);
   } else {
-    document.getElementById("dmEvent").innerHTML = "Not supported on your device or browser.  Sorry."
+    document.getElementById("doEvent").innerHTML = "Not supported on your device or browser.  Sorry."
   }
 }
 
